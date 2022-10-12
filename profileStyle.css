@@ -1,0 +1,40 @@
+*{
+        padding: o;
+        margin: 0;
+}
+.backImg{
+        width: auto;
+        height: 100vh;
+        /* background-image: url('x.jpg'); */
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: rgb(240, 214, 11);
+}
+
+.profile{
+        width: 400px;
+        background-color: rgba(0,0,0, .5);
+        padding: 30px 0;
+        border-radius: 10%;
+}
+
+img{
+        height: 250px;
+        border-radius: 10%;
+}
+
+a:link, a:visited {
+  background-color:rgb(0, 213, 110);
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #36f4a2;
+}

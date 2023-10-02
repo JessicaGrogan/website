@@ -1,33 +1,94 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Jessica's webpage</title>
-	<link rel="stylesheet" type="text/css" href="profileStyle.css"
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jessica Grogan Home</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #3c2e52;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    .container {
+        margin: 20px;
+    }
+    .interests, .publications, .contact {
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    h2 {
+        color: #2c3e50;
+    }
+    .circle-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 20px auto;
+    overflow: hidden;
+    object-fit: cover;
+}
+</style>
 </head>
 <body>
-	<div class="backImg">
-		<div class="profile">
-			<img src="x.jpg">
-			<div class=""profileText">
-				<h2>Jessica Grogan</h2>
-				
-				<h3>SUNY University at buffalo</h3>
-				<br>
 
-				<p>
-					<a href="mailto:jrgrogan@buffalo.edu">Email me! (click)</a>
-				</p>
-				<br>
-				<p>
-					<a href="https://scholar.google.com/citations?user=Hge039UAAAAJ&hl=en">Google Scholar Page</a>
-				</p>
-				<br>
-				<p>
-					<a href="https://cse.buffalo.edu/faculty/atri/"> My advisor: Atri Rudra</a>
-				</p>
-			</div>
-		</div>
-		
-	</div>
-	
+
+<header>
+    <img src="x.jpg" alt="Jessica's Image" class="circle-image">
+    <h1>Jessica Grogan</h1>
+</header>
+
+
+<div class="container">
+    <div class="interests">
+        <h2>About Me</h2>
+        <p>I'm a Computer science Ph.D. student at The State University of New York at Buffalo. </p>
+        <p>Interested in systems programming and linear algebra with applications in machine learning. </p>
+        <p> Email address: jrgrogan@buffalo.edu </p>
+    </div>
+    <div class="publications">
+        <h2>Publications</h2>
+        <ul>
+            <!-- <li><a href="https://arxiv.org/abs/2204.00595">Monarch Matrices</a></li> -->
+            <!-- Add more publications as needed -->
+        <li>
+        <p><a href="https://arxiv.org/abs/2204.00595"><b>Monarch: Expressive Structured Matrices for Efficient and Accurate Training</b></a> <br>
+            Tri Dao, Beidi Chen, Nimit Sohoni, Arjun Desai, Michael Poli, Jessica Grogan, Alexander Liu, Aniruddh Rao, Atri Rudra, Christopher Ré. <br>
+            In <i>ICML: 39th International Conference on Machine Learning</i>, July 2022.  <b><font color="DarkRed">Outstanding Paper Runner-up</font></b><br>
+            <a href="https://arxiv.org/abs/2204.00595">[Paper]</a>
+            <a href="https://github.com/HazyResearch/fly">[Code]</a>
+            <a href="https://tridao.me/publications/monarch/monarch_poster.pdf">[Poster]</a> 
+            <b>Outstanding Poster Award</b> at the <a href="https://sites.google.com/mosaicml.com/efficientmlbayarea/">
+                EfficientML Bay Area meetup</a> <br></p>
+        </li>
+        <li>
+            <a href="soon"><b>Monarch Mixer: A Simple Sub-Quadratic GEMM-Based Architecture</b></a> <br>
+            Daniel Y. Fu, Simran Arora*, Jessica Grogan*, Isys Johnson*, Sabri Eyuboglu*, Armin W. Thomas*, Benjamin F. Spector, Michael Poli, Atri Rudra, Christopher Ré
+            In <i> NeurIPS: 27th Conference on Neural Information Processing Systems </i>,Dec. 2023. <b>Oral presentation</b></b><br>
+            <a href="soon">[Paper]</a>
+            <a href="https://github.com/HazyResearch/m2">[Code]</a>
+            <a href="https://hazyresearch.stanford.edu/blog/2023-07-25-m2-bert">[Blog Post]</a>
+        </li>
+        </ul>
+    </div>
+
+    <!-- <div class = "contact"> -->
+        <!-- <h2>MISC.</h2>
+        <p>Chat GPT wrote the outline for this website.</p>
+    </div> -->
+</div>
+
+</body>
+
 </body>
 </html>
+
